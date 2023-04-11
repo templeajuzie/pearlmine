@@ -1,6 +1,6 @@
 import FAQComp from "@/components/FAQ/FAQComp";
 import Footer from "@/components/footer/Footer";
-import Navbar from "../components/navbar/Navbar";
+import Navbar from "@/components/Navbar/NavbarComp";
 
 const About = () => {
     return (
