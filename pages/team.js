@@ -1,6 +1,6 @@
 import Footer from "@/components/footer/Footer";
 import Team from "@/components/Team/Team";
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/navbar/Navbar";
 
 const Teams = () => {
     return (

@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from 'react'
+import logoimg from "../../public/src/images/logoimage.png"
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import logoimg from "../../public/src/images/logoimg.png"
+
 
 const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)

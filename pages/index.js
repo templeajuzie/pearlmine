@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Alert } from "flowbite-react";
 import Footer from '@/components/footer/Footer';
-import Navbar from '@/components/Navbar/Navbar';
+import Navbar from '@/components/navbar/Navbar';
 import Header from '@/components/Home/Header';
 import Team from '@/components/Team/Team';
 import Partner from '@/components/Home/Partners';

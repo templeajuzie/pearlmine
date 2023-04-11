@@ -1,15 +1,15 @@
 import ContactComp from "@/components/Contact/ContactComp";
 import Footer from "@/components/footer/Footer";
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/navbar/Navbar";
 
 const Contact = () => {
-    return ( 
+    return (
         <div className="generalConatct">
             <Navbar />
             <ContactComp />
-            <Footer/>
+            <Footer />
         </div>
-     );
+    );
 }
- 
+
 export default Contact;

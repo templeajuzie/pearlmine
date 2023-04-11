@@ -1,15 +1,15 @@
 import Identity from "@/components/About/Identity";
 import Footer from "@/components/footer/Footer";
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/navbar/Navbar";
 
 const About = () => {
-    return ( 
+    return (
         <div className="aboutGeneral">
             <Navbar />
             <Identity />
             <Footer />
         </div>
-     );
+    );
 }
- 
+
 export default About;
