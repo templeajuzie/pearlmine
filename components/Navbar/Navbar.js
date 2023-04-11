@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from 'react'
-import logoimg from "../../public/src/images/logoimage.png"
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
@@ -20,13 +19,7 @@ const Navbar = () => {
                         <div className="flex lg:flex-1 flex-row items-center gap-1">
                             <Link href="/" className="">
 
-                                <Image
-                                    className="h-16 w-auto"
-                                    src={logoimg}
-                                    alt=""
-                                    height={60}
-                                    width={80}
-                                />
+                                
 
                             </Link>
                             
