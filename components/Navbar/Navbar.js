@@ -19,10 +19,10 @@ const Navbar = () => {
                         <div className="flex lg:flex-1 flex-row items-center gap-1">
                             <Link href="/" className="">
 
-                                
+
 
                             </Link>
-                            
+
                         </div>
                         <div className="lg:hidden xlg:hidden flex lg: border border-gray-400 rounded-lg">
                             <button
@@ -52,7 +52,7 @@ const Navbar = () => {
                         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                             <div className="flex items-center justify-between">
                                 <div className="a">
-                                    
+
                                 </div>
                                 <div className="flex lg: border border-gray-400 rounded-lg">
                                     <button
