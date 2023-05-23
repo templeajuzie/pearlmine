@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar/NavbarComp";
 
 const About = () => {
     return (
-        <div className="aboutGeneral">
+        <div className="aboutGeneral bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100 border-b">
             <Navbar />
             <AboutUsComp />
             <Footer />
