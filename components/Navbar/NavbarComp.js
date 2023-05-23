@@ -13,10 +13,10 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="sticky top-0 z-[22] border-gray-100">
+            <div className="sticky top-0 z-[22] ">
                 {/* className="bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100" */}
 
-                <header className=" bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100 border-b border-gray-100 inset-x-0 top-0 z-50 px-6 sm:px-7">
+                <header className=" bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100 border-b inset-x-0 top-0 z-50 px-6 sm:px-7">
                     <nav className="flex items-center justify-between py-4" >
                         <div className="flex lg:flex-1 flex-row items-center gap-1">
                             <Link href="/" className="">
