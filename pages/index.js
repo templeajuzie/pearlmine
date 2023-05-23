@@ -4,16 +4,19 @@ import Header from '@/components/Home/Header';
 import Services from '@/components/Services/Services';
 import Newsletter from '@/components/Newsletter/Newsletter';
 import Testimonials from '@/components/Testimonials/Testimonials';
-import Identity from '@/components/About/Identity';
+import Header2 from '@/components/Home/Header2';
+import AboutUsComp from '@/components/About/AboutUsComp';
+import Team from '@/components/Team/Team';
 
 export default function Home() {
   return (
     <div className=''>
       <Navbar />
-      <Header />
-      <Identity />
+      {/* <Header /> */}
+      <Header2 />
+      <AboutUsComp />
       <Services />
-      <Testimonials />
+      <Team />
       <Newsletter />
       <Footer />
     </div>

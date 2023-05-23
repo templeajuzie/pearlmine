@@ -13,15 +13,16 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="sticky top-0 z-[22] bg-white border-b border-gray-100">
+            <div className="sticky top-0 z-[22] border-gray-100">
+                {/* className="bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100" */}
 
-                <header className=" bg-white border-b border-gray-100 inset-x-0 top-0 z-50 px-6 sm:px-7">
+                <header className=" bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100 border-b border-gray-100 inset-x-0 top-0 z-50 px-6 sm:px-7">
                     <nav className="flex items-center justify-between py-4" >
                         <div className="flex lg:flex-1 flex-row items-center gap-1">
                             <Link href="/" className="">
 
                                 <Image
-                                    className="h-16 w-auto"
+                                    className="h-14 w-auto"
                                     src={logoimg}
                                     alt=""
                                     height={60}
@@ -41,14 +42,16 @@ const Navbar = () => {
                                 <Bars3Icon className="h-11 w-auto" aria-hidden="true" />
                             </button>
                         </div>
-                        <div className="hidden lg:flex lg:gap-x-12">
-                            {navigation.map((item) => (
-                                <Link key={item.name} href={item.href} className="text-base font-semibold leading-6 text-gray-900">
-                                    {item.name}
-                                </Link>
-                            ))}
-                        </div>
-                        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+                        
+                        <div className="hidden lg:flex gap-10 items-center lg:justify-end">
+                            <div className="hidden lg:flex lg:gap-x-8">
+                                {navigation.map((item) => (
+                                    <Link key={item.name} href={item.href} className="text-base font-medium leading-6 text-gray-900">
+                                        {item.name}
+                                    </Link>
+                                ))}
+                            </div>
+
                             <Link href="/contact" className=" py-3 px-5 w-fit text-white font-semibold border border-indigo-700 rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200" type="button">
                                 Contact us <span aria-hidden="true">&rarr;</span>
                             </Link>

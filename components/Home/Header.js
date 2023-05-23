@@ -1,5 +1,6 @@
 import Image from "next/image";
 import home1 from "../../public/src/images/home1.png"
+import 'swiper/css';
 import { CalendarIcon } from "@heroicons/react/24/outline";
 
 
@@ -53,9 +54,10 @@ const Header = () => {
                             <Image
                                 src={home1}
                                 alt="hero"
-                                className="max-w-full w-full lg:w-[70%]  lg:ml-auto"
+                                className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
                                 height={480}
                             />
+                            
                         </div>
                     </div>
                 </div>
