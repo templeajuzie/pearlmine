@@ -1,4 +1,4 @@
-import Identity from "@/components/About/Identity";
+import AboutUsComp from "@/components/About/AboutUsComp";
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/Navbar/NavbarComp";
 
@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="aboutGeneral">
             <Navbar />
-            <Identity />
+            <AboutUsComp />
             <Footer />
         </div>
     );
