@@ -39,7 +39,7 @@ const Header2 = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <div className="px-4 py-20 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+                    <div className="px-4 py-20 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-0">
                         <div className="flex flex-col items-center justify-between xl:flex-row">
                             <div className="w-full max-w-xl mb-12 xl:pr-16 xl:mb-0 xl:w-7/12">
                                 <div className="inline-block mb-6 py-1 px-4 font-semibold bg-green-100 rounded-full">
@@ -79,7 +79,7 @@ const Header2 = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div className="px-4 py-20  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+                    <div className="px-4 py-20  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-0">
                         <div className="flex flex-col items-center justify-between xl:flex-row">
                             <div className="w-full max-w-xl mb-12 xl:pr-16 xl:mb-0 xl:w-7/12">
                                 <div className="inline-block mb-6 py-1 px-4 font-semibold bg-green-100 rounded-full">
@@ -119,7 +119,7 @@ const Header2 = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div className="px-4 py-20  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+                    <div className="px-4 py-20  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-0">
                         <div className="flex flex-col items-center justify-between xl:flex-row">
                             <div className="w-full max-w-xl mb-12 xl:pr-16 xl:mb-0 xl:w-7/12">
                                 <div className="inline-block mb-6 py-1 px-4 font-semibold bg-green-100 rounded-full">
